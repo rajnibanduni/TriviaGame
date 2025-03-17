@@ -12,6 +12,7 @@
 		1853DA932D857236003D03B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1853DA922D857236003D03B9 /* Assets.xcassets */; };
 		1853DA962D857236003D03B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1853DA952D857236003D03B9 /* Preview Assets.xcassets */; };
 		1853DAA12D858147003D03B9 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853DAA02D858147003D03B9 /* PrimaryButton.swift */; };
+		18AC0B422D8813C30065B54B /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AC0B412D8813C30065B54B /* TextExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1853DA922D857236003D03B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1853DA952D857236003D03B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1853DAA02D858147003D03B9 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		18AC0B412D8813C30065B54B /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,10 @@
 		1853DA8D2D857234003D03B9 /* TriviaGame */ = {
 			isa = PBXGroup;
 			children = (
+				18AC0B402D8813980065B54B /* Extension */,
+				1853DAA22D858455003D03B9 /* Views */,
 				1853DA9E2D858115003D03B9 /* Components */,
 				1853DA8E2D857234003D03B9 /* TriviaGameApp.swift */,
-				1853DA902D857234003D03B9 /* ContentView.swift */,
 				1853DA922D857236003D03B9 /* Assets.xcassets */,
 				1853DA942D857236003D03B9 /* Preview Content */,
 			);
@@ -84,6 +87,22 @@
 				1853DAA02D858147003D03B9 /* PrimaryButton.swift */,
 			);
 			path = ButtonUI;
+			sourceTree = "<group>";
+		};
+		1853DAA22D858455003D03B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1853DA902D857234003D03B9 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18AC0B402D8813980065B54B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18AC0B412D8813C30065B54B /* TextExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AC0B422D8813C30065B54B /* TextExtension.swift in Sources */,
 				1853DAA12D858147003D03B9 /* PrimaryButton.swift in Sources */,
 				1853DA912D857234003D03B9 /* ContentView.swift in Sources */,
 				1853DA8F2D857234003D03B9 /* TriviaGameApp.swift in Sources */,

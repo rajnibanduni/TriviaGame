@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+//    var titel:String
+//    var subTitle:String
+//    var button:UIButton
+//
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Trivia game is here!")
-        }
-        .padding()
+        VStack(spacing: 40, content: {
+            VStack(spacing: 20, content: {
+                Text("Trivia Game")
+                    .textTitle()
+                Text("Are you ready to test out your trivia skills")
+                    .textSubtitle()
+            })
+            PrimaryButton(text: "Next")
+            
+        })
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .edgesIgnoringSafeArea(.all)
+        .background(Color("Background"))
     }
 }
 
