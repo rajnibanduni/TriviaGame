@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PrimaryButton: View {
     var text:String
-    var background:Color = Color("Primary-Color")
+    var background:Color = Color("TextColor")
     
     var body: some View {
         Text(text)
